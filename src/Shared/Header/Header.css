@@ -1,0 +1,37 @@
+/*====================================
+Base style Of Header Section 
+=====================================*/
+header{ 
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E8FCF !important;
+    line-height: 60px;
+}
+/*-----------------------Logo/img style-------------------*/
+header>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+/*-----------------------Navigation style-----------------*/
+nav{
+    line-height: 60px;
+}
+nav>li{
+    display: inline-block;
+    margin-left: 14px;
+}
+nav>li>a{
+    color: white !important;
+    text-decoration: none !important;
+    padding: 8px !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav>li>a:hover,.active{
+    background-color: rgb(212, 93, 133) !important;
+    
+}
+/*======================================================
+             End Style of Header Section/Part
+ ========================================================*/
