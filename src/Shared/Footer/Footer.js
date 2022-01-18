@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import logo from '../../images/logo.png';
+
 
 
 const Footer = () => {
@@ -23,27 +23,17 @@ const Footer = () => {
                             <a href='https://www.facebook.com/ikraa.munnissa' target="_blank">
                                 <i className="fab fa-facebook me-3 text-primary"></i>
                             </a>
-                            <a href='https://www.linkedin.com/in/ikra-munnisa-7a8423153/' target='_blank'>
-                                <i className="fab fa-linkedin me-3 text-primary"></i>
+                            <a href='https://www.youtube.com/results?search_query=laser+dental+care' target='_blank'><i className="fab fa-youtube text-danger me-3"></i>
                             </a>
-                            <a href='https://www.instagram.com/' target='_blank'>
-                                <i className="fab fa-instagram me-3 icon-InstagramColor rounded"></i>
-                            </a>
-                            <a href='https://www.behance.net/' target='_blank' >
-                                <i className="fab fa-behance me-3 text-primary"></i>
-                            </a>
-                            <a href='https://twitter.com/?lang=en' target='_blank'>
-                                <i className="fab fa-twitter me-3 text-primary"></i>
-                            </a>
-                            <a href='https://youtube.com' target='_blank'><i className="fab fa-youtube text-danger"></i>
+                            <a href='' target='_blank'> <i className="fab fa-twitter"></i>
                             </a>
 
                         </h3>
                     </div>
                     <div className="col-4">
                         <h3 className='mb-3'><span className='text-white'>Laser Dental Care</span><br/>                          
-                        {/* ---------------Logo-----------------*/}
-                            <img className='img-logo' src={logo} alt='' />
+                        {/* ---------------open hour-----------------*/}
+                         
                         </h3>
                     </div>
                 </div>

@@ -1,0 +1,32 @@
+.title_color{
+    color:#c53464;
+    font-size: 30px;
+}
+img{
+    width: 40%;
+    border-radius: 15px;
+    margin: 0 10px 0px 10px;
+}
+.image_hover:hover{
+    width: 45%;
+    transition: all .8s;
+}
+.service_details{
+    height: 500px;
+}
+ .service_details:hover .service_info {
+    transition: all .4s;
+   border: 1px solid pink;
+    border-radius: 8px;
+} 
+.btn-hover{
+    background-color:#0b0d94;
+    cursor:pointer;
+    text-decoration:none;
+    
+}
+.btn-hover:hover{
+    background-color: #c53464;
+    padding: 4px 40px;
+    
+}
